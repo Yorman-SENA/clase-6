@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.container {
+    background-color: black;
+    width: 100%;
+    height: 600px;
+}
+
+p {
+    background-color: blue;
+    color: white;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.boxes .box {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* Position of elements*/
+    /* x */
+    justify-content: center;
+    /* y */
+    align-items: center;
+}
